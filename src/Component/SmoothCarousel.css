@@ -1,0 +1,49 @@
+.smooth-carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 180px;
+  background-color: #f9f9f9;
+}
+
+.smooth-carousel-track {
+  display: flex;
+  width: calc(150%);
+  animation: smooth-slide 30s linear infinite;
+}
+
+.smooth-carousel-card {
+  flex: 0 0 20%;
+  margin: 0 10px;
+  height: 180px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@keyframes smooth-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+[title="Physics Wallah"] {
+  background-image: linear-gradient(
+    rgb(201, 200, 200) 0%,
+    rgb(255, 255, 255) 22.79%,
+    rgb(205, 205, 205) 100%
+  );
+}
+[title="JEE Wallah"],
+[title="Competition Wallah"],
+[title="NCERT Wallah"],
+[title="PhysicsWallah Foundation"] {
+  background-image: linear-gradient(
+    rgb(255, 235, 197) 0%,
+    rgb(255, 255, 255) 22.79%,
+    rgb(255, 230, 191) 100%
+  );
+}

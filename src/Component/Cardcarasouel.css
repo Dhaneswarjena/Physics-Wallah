@@ -1,0 +1,96 @@
+.custom-carousel-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.custom-carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px; /* Space between cards */
+}
+
+.custom-carousel .custom-card {
+  flex: 0 0 calc(33.33% - 20px); /* 3 cards visible per row */
+  max-width: calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px 0px #00000014;
+  padding: 20px;
+  height: 320px;
+}
+
+.custom-carousel .custom-card .quote-icon {
+  font-size: 30px;
+  color: #ccc;
+}
+
+.custom-carousel .custom-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 15px 0;
+}
+
+.custom-carousel .custom-card .profile {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.custom-carousel .custom-card .profile img {
+  width: 45px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 4px;
+  border: 1px solid #d9dce1;
+}
+
+.custom-carousel .custom-card .profile .name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.custom-carousel .custom-card .profile .title {
+  font-size: 12px;
+  color: #888;
+}
+
+.custom-carousel-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.custom-carousel-buttons button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-carousel-buttons button:disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}
+
+.custom-carousel-buttons button:hover:not(:disabled) {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.textheight {
+  height: 60%;
+  overflow: scroll;
+}
+.textheight::-webkit-scrollbar {
+  display: none;
+}

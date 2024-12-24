@@ -1,0 +1,56 @@
+@media only screen and (min-width: 400px) and (max-width: 560px) {
+  .secleftright {
+    display: block !important;
+  }
+  .secdiv {
+    width: 100% !important;
+  }
+  .md1,
+  .md2 {
+    width: 100% !important;
+  }
+  .md1 {
+    text-align: center;
+  }
+  .herofont {
+    font-size: 26px;
+  }
+  .herofontpara {
+    font-size: 16px;
+  }
+  .herostudent {
+    width: 62%;
+    margin-top: 53%;
+    left: 22%;
+  }
+  .sectionbg {
+    height: 515px;
+  }
+  .chat-container1 {
+    left: 27%;
+    margin-top: 56%;
+    width: 33%;
+    font-size: 12px !important;
+  }
+  .chat-bubble1 {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+  .chat-bubble1::after {
+    top: 6;
+  }
+  .chat-container {
+    left: 37%;
+    margin-top: 68%;
+    width: 25%;
+  }
+  .chat-bubble {
+    padding: 10px 10px;
+  }
+  .div4sec {
+    height: 210px;
+    width: 95%;
+    margin-top: 24% !important;
+    left: 5%;
+  }
+}

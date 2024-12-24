@@ -1,0 +1,32 @@
+.bgfooter {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #d6d3d3;
+}
+.colorpw {
+  font-size: 18px;
+  color: #1b2124;
+  font-weight: bold;
+}
+.googlepay1 {
+  width: 160px;
+}
+.appstore1 {
+  width: 144px;
+}
+.social {
+  font-size: 20px;
+  color: #1b2124;
+  font-weight: bold;
+}
+.socialimg {
+  width: 4%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.cmp a {
+  color: #333;
+  text-decoration: none;
+}
+.cmp a:hover {
+  text-decoration: underline;
+}

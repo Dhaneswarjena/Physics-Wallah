@@ -1,0 +1,39 @@
+nav {
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  position: sticky !important;
+  top: 0;
+  border-bottom-width: 1px;
+  z-index: 40;
+  border-bottom: 1px solid rgb(231 224 224);
+}
+.navbar-brand img {
+  width: 28%;
+}
+.nav-item {
+  padding: 10px;
+}
+.nav-link {
+  color: rgba(27, 33, 36, 1) !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  line-height: 1.5rem !important;
+}
+.nav-link:hover {
+  background-color: #f1efff;
+  border-radius: 4px;
+}
+.colorbtn {
+  background-color: #5a4bda !important;
+  padding: 10px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 16%;
+}
+.colorbtn:hover {
+  background-color: #4437b8 !important;
+  border: none;
+}
